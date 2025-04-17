@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4e3d7;
+    color: #3d2c1c;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    background: #b38867;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10;
+}
+
+nav .logo {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+nav a {
+    color: #f4e3d7;
+    margin-left: 1rem;
+    text-decoration: none;
+}
+
+section {
+    padding: 100px 20px 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero {
+    min-height: 100vh;
+    background: linear-gradient(to right, #e8cfc2, #dab49d);
+}
+
+.hero h1 {
+    font-size: 2.8rem;
+}
+
+.hero h2 {
+    font-weight: normal;
+    color: #5b3a29;    
+}
+
+.hero p {
+    font-size: 1.2rem;
+    max-width: 600px;;
+    margin: 1rem 0 2rem;
+}
+
+.highlight {
+    color: #c69c6d;
+}
+
+.btn-utama {
+    padding: 0.7rem 1.5rem;
+    background-color: #c69c6d;
+    color: #000;
+    border: none;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+.btn-utama:hover {
+    background-color: #9c7248;
+}
+
+.scroll-down {
+    margin: 2rem 1rem;
+    font-family: cursive;
+    font-size: 1rem;
+    color: #a67c52;
+    text-decoration: none;
+    animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(10px);
+    }
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit mimax(250px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.projects-card {
+    background-color: #e3c9a9;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.projects-card h3 {
+    margin-bottom: 0.5rem;
+}
+
+.hero-content .nama {
+    color: #c69c6d
+}

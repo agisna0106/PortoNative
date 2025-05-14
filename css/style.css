@@ -164,6 +164,11 @@ section {
     animation: fadeIn 1.2s ease-in-out;
 }
 
+#contact a {
+    color: #3d2c1c;
+    text-decoration: underline;
+}
+
 footer {
     background-color: #b38867;
     color: #f4e3d7;

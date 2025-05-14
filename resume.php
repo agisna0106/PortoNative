@@ -7,7 +7,8 @@ include 'header.php';
         <ul>
             <li>Laravel, PHP, MySQL</li>
             <li>HTML, CSS, JavaScript</li>
-            <li>REST API, Git & GitHub</li>
+            <li>Java & Flutter</li>
+            <li>Git & GitHub</li>
         </ul>
         <ul>
             <li>Team Collaboration</li>
